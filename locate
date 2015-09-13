@@ -1,0 +1,5 @@
+# ファイル名にhttpd.confを含むファイルを検索
+locate httpd.conf
+
+# データベース更新
+updatedb

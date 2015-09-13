@@ -1,0 +1,6 @@
+# 使用するJava環境を設定
+update-alternatives --config java
+
+# デフォルトアプリケーションで開く
+xdg-open file_or_directory
+

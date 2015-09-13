@@ -1,0 +1,11 @@
+# 「foo」を含むファイルを検索
+ag foo
+
+# ~/bin ~/dotfiles 配下で「foo」を含むファイルを検索
+ag foo ~/bin ~/dotfiles
+
+# Rubyのソースコードから「foo」を含むファイルを検索
+ag -G "\.rb$" foo
+
+# 「foo」を含むファイルを検索し、ファイル名を出力
+ag -l foo

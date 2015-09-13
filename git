@@ -1,0 +1,11 @@
+# ステージングされていない差分を表示
+git diff
+
+# ステージングされている差分を表示
+git diff --staged
+
+# コミットからformat-patchを作成
+git format-patch HEAD~1
+
+# format-patchを適用
+git am /path/to/patch
