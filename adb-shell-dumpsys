@@ -1,0 +1,2 @@
+# Activityスタックを表示
+adb shell dumpsys activity activities

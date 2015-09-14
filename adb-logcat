@@ -1,0 +1,14 @@
+# ログ監視
+adb logcat
+
+# ログ取得
+adb logcat -d
+
+# ログ消去
+adb logcat -c
+
+# ログレベルWarning以上のログを取得
+adb logcat -d *:W
+
+# ContactsタグのログレベルError以上を取得、それ以外は非表示。
+adb logcat -d Contacts:E *:S

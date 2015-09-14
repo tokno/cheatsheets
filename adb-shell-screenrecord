@@ -1,0 +1,2 @@
+# 3秒間画面のキャプチャし端末のSDカードに保存。ファイル名:capture.mp4
+adb shell screenrecord --time-limit 3 /mnt/sdcard/capture.mp4

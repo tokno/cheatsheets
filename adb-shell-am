@@ -1,0 +1,12 @@
+### 明示的Intent ###
+# ContactsアプリのPeopleActivityを開く
+adb shell am start -n com.android.contacts/.activities.PeopleActivity
+
+
+### 暗黙的Intent ###
+# google.co.jpを表示
+adb shell am start -a android.intent.action.VIEW -d http://google.co.jp/
+
+
+### ブロードキャストIntent ###
+am broadcast -a android.intent.action.BATTERY_LOW

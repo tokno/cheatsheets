@@ -1,0 +1,23 @@
+### テキスト入力 ###
+# 「Hello」をテキスト入力。
+adb shell input text Hello
+
+
+### キーイベント ###
+# HOMEキーイベントを送信
+adb shell input keyevent KEYCODE_HOME
+
+# キーイベント一覧 参考:http://developer.android.com/reference/android/view/KeyEvent.html
+KEYCODE_MENU     --   menu
+KEYCODE_HOME     --   home
+KEYCODE_BACK     --   back
+KEYCODE_CALL     --   call
+KEYCODE_CAMERA   --   camera
+KEYCODE_POWER    --   power
+
+### タッチスクリーンイベント ###
+# x:300px y:600pxの位置をタップ
+adb shell input touchscreen tap 600 300
+
+# x:300px y:800px から x:900px y:800px の位置までスワイプ
+adb shell input touchscreen swipe 300 800 900 800
