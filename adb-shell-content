@@ -1,0 +1,2 @@
+# 連絡先の情報を取得
+adb shell content query --uri content://com.android.contacts/contacts
